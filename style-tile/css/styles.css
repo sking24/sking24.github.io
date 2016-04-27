@@ -49,3 +49,37 @@ border: none;
 background: url("img/iconmonstr-email-2-96.png");
 background-size: contain;
 }
+
+/*Navigation*/
+
+nav li {
+    list-style: none;
+    float: left;
+}
+
+nav a:link {
+    background: pink;
+    color: white;
+    margin: 0 10px 0 10px;
+    padding: 20px 20px 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+
+}
+
+nav a:visited {
+    color: purple;
+}
+
+nav a:active {
+ border: 10px solid red;
+     
+}
+
+nav a:hover {
+    background: white;
+    color: red;
+    margin-top: 20px;
+}
+
