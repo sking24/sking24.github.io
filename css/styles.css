@@ -1,1 +1,15 @@
 /* My Awesome Styling */
+
+
+
+/* Global */
+
+body {
+background: url("../img/bgtile.png");
+}
+
+
+/* Header */
+header img {
+    width: 100px;
+}
