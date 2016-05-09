@@ -1,54 +1,72 @@
 /*color palette*/
 .color-1 {
-    background: red;
+    background: #D3C4BE;
 }
 
 .color-2 {
-    background: blue;
+    background: #C4BDAC;
 }
 
 .color-3 {
-    background: white;
+    background: #EBCFC4;
 }
 
 .color-4 {
-    background: black;
+    background: #999999;
 }
 
-.color-5 {
-    background: red;
-}
 /*textures and patterns*/
 
 .pattern-1 { 
-background: url("http://us.123rf.com/450wm/donatas1205/donatas12051208/donatas1205120800098/14901220-usa-flag-on-wood-texture.jpg?ver=6") no-repeat;
+background: url("../img/feathers.jpg") no-repeat;
 background-size: cover;
 }
 
 .pattern-2 {
-background: url("../img/flag.jpg") no-repeat;
-background-size: contain;
+background: url("../img/paint.jpg") no-repeat;
+background-size: cover;
 }
 
+.pattern-3 {
+background: url("../img/splatter.jpg") no-repeat;
+background-size: cover;
+}
 
 /* Images */
 
 .imagery-1 img {
-    box-shadow: 5px 5px 0 red,
+    box-shadow: 5px 5px 0 white,
                 10px 10px 0 white,
-                15px 15px 0 blue;
+                15px 15px 0 black;
+
+.imagery-2 img {
+    box-shadow: 5px 5px 0 white,
+                10px 10px 0 white,
+                15px 15px 0 black;
+    
+.imagery-3 img {
+    box-shadow: 5px 5px 0 white,
+                10px 10px 0 white,
+                15px 15px 0 black;
 }
 
 /*Icon*/
 
 .icon-1 {
-border: none;
+background: url("../img/iconmonstr-coffee-10-240.png") no-repeat;
+    background-size: cover;
 }
 
 .icon-2 {
-background: url("img/iconmonstr-email-2-96.png");
-background-size: contain;
+background: url("../img/iconmonstr-glasses-15-240.png") no-repeat;
+background-size: cover;
 }
+
+    .icon-3 {
+background: url("../img/iconmonstr-weather-13-240.png") no-repeat;
+    background-size: cover;
+    }
+    
 
 /*Navigation*/
 
@@ -64,7 +82,7 @@ nav a:link {
     padding: 20px 20px 5px 20px;
     border-radius: 5px;
     text-decoration: none;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid white;
 
 }
 
