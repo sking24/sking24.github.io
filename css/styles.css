@@ -1,3 +1,8 @@
+
+body {
+       background-image: url("/img/bg.jpg");
+  }
+
 #container {
     background: black;
 
@@ -9,7 +14,8 @@ h1 {
     font-size: 60px;
     position: absolute;
     top: 210px;
-    left: 30px;
+    left: 55px;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -17,8 +23,8 @@ h2 {
     font-size: 30px;
     position: absolute;
     top: 310px;
-    left: 160px;
-   
+    left: 185px;
+   text-transform: uppercase;
 }
 
 /* BLINDIFY CSS */
@@ -26,7 +32,7 @@ h2 {
 {
     display: block;
     position: relative;
-    left: 450px;
+    left: 560px;
     overflow: hidden;
 
 }
@@ -61,5 +67,137 @@ h2 {
 .blindify li.active
 {
     display: inline;
+  
+}
+
+/* Layout */
+* { box-sizing: border-box; }
+
+section {
+  /* Fallback: Floated in No JS */
+  float: left;
+  padding: 1em;
+}
+
+/* clearfix */
+section:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+article {
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+
+h4 {
+    font-size: 6em;
+    text-align: center;
+    text-transform: uppercase;
+    color: rosybrown;
+}
+
+h3 {
+    color: antiquewhite;
+    font-size: 23px;
+}
+p {
+    color: aliceblue;
+    font-size: 18px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;   
+    font-size: 19px;
+}
+
+ul {
+    list-style: none;
+    color: aliceblue
+}
+
+li {
+     color: aliceblue;
+    font-size: 18px;
+}
+.interests {
+    list-style-type:square;
+}
+
+.experience {
+    list-style-type: square;
+}
+
+/* Masonry Styling */
+section {
+  background: rgba(167, 167, 167, 0.88);
+  border: 1px solid #b9abab;
+  /* vertical space between */
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.tall {
+  height: 500px;
+  width: 300px;
+}
+
+.med {
+  height: 400px;
+    color: antiquewhite;
+}
+
+.short {
+  height: 200px;
+}
+
+
+
+
+/********************
+MEDIA QUERIES
+*******************/
+
+/* Desktop */
+@media screen 
+  /* 2560px = 160em */
+  and (max-width: 160em)
+  /* 1280px = 80em */
+  and (min-width: 80em) { 
+  
+ 
+  body {
+       background-image: url("/img/bg.jpg");
+  }
+
+}
+
+/* Tablet */
+@media screen 
+   /* 1279 = 79.9375em */  
+  and (max-width: 79.9375em)
+   /* 768px = 160em */
+  and (min-width: 48em)  {
+  
+  body {
+       background-image: url("/img/bg.jpg");
+  }
+
+}
+
+/* Mobile */
+@media screen
+  /* 767px = 47.9375em */
+  and (max-width: 47.9375em)
+  /* 320px = 20em */
+  and (min-width: 20em) { 
+  
+  body {
+       background-image: url("/img/bg.jpg");
+  }
   
 }
