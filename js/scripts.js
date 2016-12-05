@@ -4,8 +4,9 @@
             animationSpeed: 600,
             delayBetweenSlides: 200,
             slideVisibleTime: 3000,
-            width: 960,
-            height: 600
+            width: 900,
+            height: 450,
+           
         });
     });
 
